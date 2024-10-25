@@ -10,7 +10,7 @@ import lombok.*;
 @AllArgsConstructor
 public class Utente {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue
     private Long id;
 
     @Column(unique = true)

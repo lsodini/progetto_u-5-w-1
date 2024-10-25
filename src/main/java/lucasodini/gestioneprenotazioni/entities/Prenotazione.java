@@ -11,7 +11,7 @@ import java.time.LocalDate;
 @AllArgsConstructor
 public class Prenotazione {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue
     private Long id;
 
     private LocalDate data;

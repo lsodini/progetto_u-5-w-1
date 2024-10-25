@@ -11,7 +11,7 @@ import lombok.*;
 @AllArgsConstructor
 public class Postazione {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue
     private Long id;
 
     @Column(unique = true)

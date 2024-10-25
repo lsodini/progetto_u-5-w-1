@@ -11,10 +11,10 @@ import lombok.*;
 @AllArgsConstructor
 public class Edificio {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue
     private Long id;
 
     private String nome;
     private String indirizzo;
-    private String città;
+    private String citta;
 }
